@@ -1,0 +1,183 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 7842,
+            "type": "VEC3",
+            "max": [
+                0.1773352324962616,
+                0.016466619446873665,
+                -0.28661245107650757
+            ],
+            "min": [
+                -0.23649609088897705,
+                -0.30556613206863403,
+                -0.5623899102210999
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 7842,
+            "type": "VEC3",
+            "max": [
+                0.9996585249900818,
+                0.9999954104423523,
+                0.9998742341995239
+            ],
+            "min": [
+                -0.9989362359046936,
+                -0.877246081829071,
+                -0.9989587664604187
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 7842,
+            "type": "VEC2",
+            "max": [
+                0.9974319934844971,
+                0.7544256448745728
+            ],
+            "min": [
+                0.002179266419261694,
+                0.004180550575256348
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 40503,
+            "type": "SCALAR",
+            "max": [
+                7841
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 412956,
+            "uri": "myshoe_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 94104,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 94104,
+            "byteLength": 94104,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 188208,
+            "byteLength": 62736,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 250944,
+            "byteLength": 162012,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "main",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "myshoe",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "root",
+            "children": [
+                2
+            ],
+            "extras": {
+                "name": "root"
+            }
+        },
+        {
+            "name": "mesh",
+            "mesh": 0,
+            "extras": {
+                "name": "mesh"
+            }
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
