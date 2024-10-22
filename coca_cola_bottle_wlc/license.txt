@@ -1,0 +1,11 @@
+Model Information:
+* title:	Coca Cola bottle wlc
+* source:	https://sketchfab.com/3d-models/coca-cola-bottle-wlc-3556d26d446a4b98b8241a1a7fc37009
+* author:	skenned11 (https://sketchfab.com/skenned11)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Coca Cola bottle wlc" (https://sketchfab.com/3d-models/coca-cola-bottle-wlc-3556d26d446a4b98b8241a1a7fc37009) by skenned11 (https://sketchfab.com/skenned11) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
