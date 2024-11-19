@@ -1,0 +1,183 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 49023,
+            "type": "VEC3",
+            "max": [
+                0.22019177675247192,
+                0.1709171086549759,
+                0.24386456608772278
+            ],
+            "min": [
+                -0.35518878698349,
+                -0.009522072970867157,
+                -0.49778324365615845
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 49023,
+            "type": "VEC3",
+            "max": [
+                0.9999822378158569,
+                0.9999999403953552,
+                0.9999815225601196
+            ],
+            "min": [
+                -0.9999004602432251,
+                -0.9970403909683228,
+                -0.9999278783798218
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 49023,
+            "type": "VEC2",
+            "max": [
+                0.9974937438964844,
+                0.8056027889251709
+            ],
+            "min": [
+                0.002100478857755661,
+                0.0041599273681640625
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 271650,
+            "type": "SCALAR",
+            "max": [
+                49022
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 2655336,
+            "uri": "bud light_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 588276,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 588276,
+            "byteLength": 588276,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1176552,
+            "byteLength": 392184,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1568736,
+            "byteLength": 1086600,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "main",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "bud light",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "root",
+            "children": [
+                2
+            ],
+            "extras": {
+                "name": "root"
+            }
+        },
+        {
+            "name": "mesh",
+            "mesh": 0,
+            "extras": {
+                "name": "mesh"
+            }
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
