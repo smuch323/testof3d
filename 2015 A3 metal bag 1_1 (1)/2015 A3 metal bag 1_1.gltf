@@ -1,0 +1,183 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 22637,
+            "type": "VEC3",
+            "max": [
+                0.07130753993988037,
+                0.04947362467646599,
+                0.06488308310508728
+            ],
+            "min": [
+                -0.07130753993988037,
+                0.005702942609786987,
+                -0.06488308310508728
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 22637,
+            "type": "VEC3",
+            "max": [
+                0.9992040991783142,
+                1.0,
+                0.9903027415275574
+            ],
+            "min": [
+                -0.9948912858963013,
+                -0.9626637697219849,
+                -0.9880993962287903
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 22637,
+            "type": "VEC2",
+            "max": [
+                0.9953175783157349,
+                0.7578306794166565
+            ],
+            "min": [
+                0.046125173568725586,
+                0.00425565242767334
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 118263,
+            "type": "SCALAR",
+            "max": [
+                22636
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1197436,
+            "uri": "2015 A3 metal bag 1_1_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 271644,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 271644,
+            "byteLength": 271644,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 543288,
+            "byteLength": 181096,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 724384,
+            "byteLength": 473052,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "main",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "2015 A3 metal bag 1_1",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "root",
+            "children": [
+                2
+            ],
+            "extras": {
+                "name": "root"
+            }
+        },
+        {
+            "name": "mesh",
+            "mesh": 0,
+            "extras": {
+                "name": "mesh"
+            }
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
