@@ -1,0 +1,183 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 24867,
+            "type": "VEC3",
+            "max": [
+                0.0881839469075203,
+                0.029034703969955444,
+                0.07875461876392365
+            ],
+            "min": [
+                -0.09403859078884125,
+                -0.014836065471172333,
+                -0.16208040714263916
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 24867,
+            "type": "VEC3",
+            "max": [
+                0.9986484050750732,
+                0.9999990463256836,
+                0.9991342425346375
+            ],
+            "min": [
+                -0.9515349864959717,
+                -0.9996561408042908,
+                -0.9997928738594055
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 24867,
+            "type": "VEC2",
+            "max": [
+                0.9976661205291748,
+                0.5920183658599854
+            ],
+            "min": [
+                0.0021329913288354874,
+                0.0041542649269104
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 138987,
+            "type": "SCALAR",
+            "max": [
+                24866
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1351692,
+            "uri": "ceramic 3_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 298404,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 298404,
+            "byteLength": 298404,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 596808,
+            "byteLength": 198936,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 795744,
+            "byteLength": 555948,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "main",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "ceramic 3",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "root",
+            "children": [
+                2
+            ],
+            "extras": {
+                "name": "root"
+            }
+        },
+        {
+            "name": "mesh",
+            "mesh": 0,
+            "extras": {
+                "name": "mesh"
+            }
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
