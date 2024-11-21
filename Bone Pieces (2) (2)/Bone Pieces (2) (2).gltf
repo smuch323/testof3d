@@ -1,0 +1,236 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 34994,
+            "type": "VEC3",
+            "max": [
+                0.6100720763206482,
+                0.26719769835472107,
+                0.4465067386627197
+            ],
+            "min": [
+                -0.39326953887939453,
+                0.007707274053245783,
+                -0.5568704605102539
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 34994,
+            "type": "VEC3",
+            "max": [
+                0.9981651306152344,
+                0.9999970197677612,
+                0.9995207786560059
+            ],
+            "min": [
+                -0.9999532103538513,
+                -0.998420774936676,
+                -0.999865710735321
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 34994,
+            "type": "VEC2",
+            "max": [
+                0.9988924860954285,
+                0.9978669881820679
+            ],
+            "min": [
+                0.0005154418176971376,
+                0.0068215131759643555
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 34994,
+            "type": "VEC2",
+            "max": [
+                0.9988924860954285,
+                0.9978669881820679
+            ],
+            "min": [
+                0.0005154418176971376,
+                0.0068215131759643555
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 185337,
+            "type": "SCALAR",
+            "max": [
+                34993
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 2141108,
+            "uri": "Bone Pieces (2) (2)_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 419928,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 419928,
+            "byteLength": 419928,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 839856,
+            "byteLength": 279952,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1119808,
+            "byteLength": 279952,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1399760,
+            "byteLength": 741348,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_1.png"
+        },
+        {
+            "uri": "textures/image_0.png"
+        },
+        {
+            "uri": "textures/image_2.png"
+        },
+        {
+            "uri": "textures/image_3.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Mat_1",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicRoughnessTexture": {
+                    "index": 1
+                },
+                "metallicFactor": 0.0
+            },
+            "normalTexture": {
+                "index": 2
+            },
+            "occlusionTexture": {
+                "index": 3,
+                "texCoord": 1
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 4,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2,
+                        "TEXCOORD_1": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "Bone Pieces (2) (2)",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "mesh_0",
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        },
+        {
+            "source": 1,
+            "sampler": 1
+        },
+        {
+            "source": 2,
+            "sampler": 2
+        },
+        {
+            "source": 3,
+            "sampler": 3
+        }
+    ],
+    "scene": 0
+}
