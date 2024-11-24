@@ -1,0 +1,171 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 63879,
+            "type": "VEC3",
+            "max": [
+                0.6204320192337036,
+                0.16426484286785126,
+                0.4794144034385681
+            ],
+            "min": [
+                -0.480378121137619,
+                0.002140061929821968,
+                -0.6063106656074524
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 63879,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                0.9999988079071045,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -0.9936085343360901,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 63879,
+            "type": "VEC2",
+            "max": [
+                0.9990530610084534,
+                0.9998682737350464
+            ],
+            "min": [
+                0.0003951527760364115,
+                0.0008791685104370117
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 330201,
+            "type": "SCALAR",
+            "max": [
+                63878
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 3364932,
+            "uri": "Glass bottle assemblege (1)_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 766548,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 766548,
+            "byteLength": 766548,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1533096,
+            "byteLength": 511032,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2044128,
+            "byteLength": 1320804,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Mat_1",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "Glass bottle assemblege (1)",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "mesh_0",
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
